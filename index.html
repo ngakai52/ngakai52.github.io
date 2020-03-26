@@ -15,11 +15,18 @@
             URL += '&state=NO_STATE';
             window.location.href = URL;
         }
+
+        function geturl() {
+            var rul = window.location.href;
+            console.log(url);
+        }
+
     </script>
 </head>
 
 <body>
     <button onclick="oAuth2();"> 連結到 LineNotify 按鈕 </button>
+    <button onclick="geturl();"> 取得 url 按鈕 </button>
 </body>
 
 </html>
